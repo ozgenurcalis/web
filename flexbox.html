@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(206, 133, 206);
+            
+
+
+        }
+
+        .blackbox{
+            width: 120px;
+            height: 120px;
+            background-color: black;
+            order: 2;
+            flex-grow: 1;
+        }
+
+
+        .greenbox{
+            width: 120px;
+            height: 120px;
+            background-color: green;
+            order: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="blackbox"></div>
+        <div class="greenbox"></div>
+        
+
+
+
+    </div>
+</body>
+
+</html>
